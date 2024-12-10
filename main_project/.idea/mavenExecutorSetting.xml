@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="mavenExecutorSetting">
+    <option name="defaultSettings">
+      <ExecutionSettings>
+        <option name="goals">
+          <list>
+            <option value="jar:jar" />
+          </list>
+        </option>
+        <option name="projectsToBuild">
+          <list>
+            <ProjectToBuild>
+              <option name="displayName" value="cloud_to_mongo" />
+              <option name="mavenArtifact">
+                <MavenArtifact>
+                  <option name="groupId" value="org.example" />
+                  <option name="artifactId" value="cloud_to_mongo" />
+                  <option name="version" value="1.0-SNAPSHOT" />
+                </MavenArtifact>
+              </option>
+              <option name="projectDictionary" value="$PROJECT_DIR$/../cloud_to_mongo" />
+            </ProjectToBuild>
+          </list>
+        </option>
+        <option name="collapseModules">
+          <set>
+            <MavenGroupAndArtifactKey>
+              <option name="groupId" value="org.example" />
+              <option name="artifactId" value="cloud_to_mongo" />
+            </MavenGroupAndArtifactKey>
+            <MavenGroupAndArtifactKey>
+              <option name="groupId" value="org.example" />
+              <option name="artifactId" value="mongo_to_mqtt" />
+            </MavenGroupAndArtifactKey>
+            <MavenGroupAndArtifactKey>
+              <option name="groupId" value="org.example" />
+              <option name="artifactId" value="mqtt_to_mysql" />
+            </MavenGroupAndArtifactKey>
+          </set>
+        </option>
+      </ExecutionSettings>
+    </option>
+    <option name="goalsHistory">
+      <History>
+        <option name="items">
+          <list>
+            <option value="jar:jar" />
+          </list>
+        </option>
+      </History>
+    </option>
+    <option name="visibleSettings">
+      <set>
+        <option value="PROFILES" />
+        <option value="OPTIONAL_JVM_OPTIONS" />
+        <option value="THREAD_COUNT" />
+        <option value="OFFLINE_MODE" />
+        <option value="ALWAYS_UPDATE_SNAPSHOT" />
+        <option value="SKIP_TESTS" />
+        <option value="FAVORITE" />
+      </set>
+    </option>
+    <option name="visibleSettingsNotInitYet" value="false" />
+  </component>
+</project>
