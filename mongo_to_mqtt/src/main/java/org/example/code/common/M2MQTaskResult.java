@@ -1,0 +1,11 @@
+package org.example.code.common;
+
+public enum M2MQTaskResult {
+    OK,
+    ERROR_LOADING_PROPERTIES,
+    ERROR_CREATING_MQTT_CLIENT,
+    ERROR_MQTT_START_UP,
+    ERROR_MQTT_CONNECTION,
+    ERROR_MONGO_THREAD_STARTER,
+    ERROR_MONGODB_START_UP
+}
